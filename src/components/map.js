@@ -4,6 +4,9 @@ import { useState } from "react"
 import MapGL, { GeolocateControl } from "react-map-gl"
 import "mapbox-gl/dist/mapbox-gl.css"
 
+import mb from "mapbox-gl"
+mb.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
+
 const MAPBOX_TOKEN = process.env.GATSBY_MAPBOX_TOKEN
 
 const geolocateStyle = {
@@ -32,12 +35,7 @@ export default function Map() {
         onViewportChange={setViewport}
         mapboxApiAccessToken={MAPBOX_TOKEN}
       >
-        <GeolocateControl
-          style={geolocateStyle}
-          positionOptions={positionOptions}
-          trackUserLocation
-          auto
-        />
+        <GeolocateControl style={geolocateStyle} positionOptions={positionOptions} trackUserLocation auto />
       </MapGL>
     </div>
   )
