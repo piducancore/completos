@@ -8,6 +8,7 @@
     "@fontsource/saira": "^4.5.1",
     "@theme-ui/presets": "^0.11.3",
     "@theme-ui/prism": "^0.11.3",
+    "d3-ease": "^3.0.1",
     "gatsby": "^4.0.0",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
@@ -22,7 +23,8 @@
     "react-helmet": "^6.1.0",
     "react-map-gl": "^6.1.17",
     "theme-ui": "^0.11.3",
-    "worker-loader": "^3.0.8"
+    "worker-loader": "^3.0.8",
+    "zustand": "^3.6.5"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
