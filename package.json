@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "@piducancore",
   "dependencies": {
+    "@fontsource/amatic-sc": "^4.5.0",
     "@fontsource/saira": "^4.5.1",
     "@theme-ui/presets": "^0.11.3",
     "@theme-ui/prism": "^0.11.3",
@@ -22,6 +23,7 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-map-gl": "^6.1.17",
+    "react-simple-star-rating": "^4.0.5",
     "theme-ui": "^0.11.3",
     "worker-loader": "^3.0.8",
     "zustand": "^3.6.5"

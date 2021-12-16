@@ -1189,6 +1189,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/amatic-sc@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/amatic-sc/-/amatic-sc-4.5.0.tgz#bad1434f0886a6a804da963d3538b106993ed573"
+  integrity sha512-tBKa+zsXiufhofyxwdhULyg7zHp/QCd5YgpOTHtfWF7oI8IeGoeJOtGlP6/QkZsWujUZOB0fc0pnige5/upQZg==
+
 "@fontsource/saira@^4.5.1":
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/@fontsource/saira/-/saira-4.5.1.tgz#c6f5370a6d2430516d4da23b596db0c342ac2c04"
@@ -9918,6 +9923,11 @@ react-side-effect@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
+
+react-simple-star-rating@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/react-simple-star-rating/-/react-simple-star-rating-4.0.5.tgz#030e576015c9fca881677c9eeb55218f42278cd8"
+  integrity sha512-995YpXtLNNLim/K59lhRqFnvpRXJHsiJAnYAu2iHEjfCn4u8hP9Eam53hi+ubc6stU25FzvBPyXKzjhu7wl+hA==
 
 react@^17.0.1:
   version "17.0.2"

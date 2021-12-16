@@ -1,8 +1,8 @@
 import base from "@theme-ui/preset-base"
 import { merge } from "theme-ui"
 
-import "@fontsource/saira/700.css"
-import "@fontsource/saira/400.css"
+import "@fontsource/amatic-sc/700.css"
+import "@fontsource/amatic-sc/400.css"
 
 const theme = merge(base, {
   colors: {
@@ -11,8 +11,8 @@ const theme = merge(base, {
   },
   fontSizes: [12, 14, 16, 22, 24, 32, 48, 64, 96],
   fonts: {
-    heading: `'Saira', sans-serif`,
-    body: `'Saira', sans-serif`,
+    heading: `'Amatic SC', sans-serif`,
+    body: `'Amatic SC', sans-serif`,
   },
   fontWeights: {
     heading: 700,
@@ -22,13 +22,14 @@ const theme = merge(base, {
     container: 480,
   },
   layout: {
+    root: { height: "100vh" },
     header: {},
     main: {},
     footer: { textAlign: "center" },
     container: {
       maxWidth: "container",
       mx: "auto",
-      px: 3,
+      p: 3,
     },
   },
   styles: {
